@@ -4,6 +4,7 @@ body {
   /* font-family: 'Poppins', sans-serif;
     font-family: 'Yeseva One', cursive;
    */
+  background-color: #fafffd !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

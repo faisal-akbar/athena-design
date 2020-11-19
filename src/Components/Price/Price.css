@@ -1,0 +1,30 @@
+.price_container {
+  width: 300px;
+  background-color: #fff;
+}
+.price_container:hover {
+  border: 2px solid lightseagreen;
+  display: block;
+}
+.price_container .price {
+  font-size: 50px;
+}
+
+.price_container .btn {
+  visibility: hidden;
+}
+
+.team-container::after {
+  height: 700px;
+  content: ' ';
+  position: absolute;
+  top: 1950px;
+  width: 50%;
+  left: -200px;
+  z-index: -50;
+  background-image: url('../../assets/images/price.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  opacity: 1;
+}
