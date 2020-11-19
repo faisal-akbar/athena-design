@@ -1,0 +1,12 @@
+.project-container::after {
+  height: 700px;
+  content: ' ';
+  position: absolute;
+  top: 1150px;
+  width: 100%;
+  right: 0;
+  z-index: -51;
+  background-image: url('../../assets/images/projectbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
