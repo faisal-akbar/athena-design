@@ -42,7 +42,7 @@ const Price = () => {
         },
     ]
     return (
-        <section className="text-center team-container mt-5">
+        <section className="text-center team-container mt-5" id='pricing'>
             <div className="p-3">
                 <h2>Choose Your Dedicated Team</h2>
             </div>

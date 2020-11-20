@@ -30,30 +30,30 @@ const Navbar = () => {
             </a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link mr-3' href='#portfolio'>
+            <a className='nav-link mr-3' href='#about'>
               About
             </a>
           </li>
           <li className='nav-item'>
-            <a to='#' className='nav-link mr-3' href='#'>
+            <a to='#' className='nav-link mr-3' href='#services'>
               Services
             </a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link mr-3' href='#contact'>
+            <a className='nav-link mr-3' href='#pricing'>
               Pricing
             </a>
           </li>
 
           <li className='nav-item'>
-            <a className='nav-link mr-3' href='#contact'>
+            <a className='nav-link mr-3' href='#team'>
               Our Team
             </a>
           </li>
           <li className='nav-item'>
-            <button type='button' className='btn btn-brand px-4 py-2 text-white'>
+            <a href='#contact' type='button' className='btn btn-brand px-4 py-2 text-white'>
               Contact Us
-            </button>
+            </a>
           </li>
         </ul>
       </div>
