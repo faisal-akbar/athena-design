@@ -51,7 +51,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='nav-item'>
-            <a href='#contact' type='button' className='btn btn-brand px-4 py-2 text-white'>
+            <a className='btn btn-brand px-4 py-2 text-white' href='#contact' >
               Contact Us
             </a>
           </li>
