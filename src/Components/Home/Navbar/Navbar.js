@@ -8,7 +8,7 @@ const Navbar = () => {
 <div className="container px-0">
 
       <a  className='navbar-brand' href='#'>
-        <img className='w-50' src={logo} alt='athena-design-logo' />
+        <img src={logo} alt='athena-design-logo' />
       </a>
       <button
         className='navbar-toggler'

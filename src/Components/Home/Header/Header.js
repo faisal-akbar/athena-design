@@ -1,27 +1,29 @@
 import React from 'react';
-import HeaderMain from './HeaderMain';
-import Navbar from '../Navbar/Navbar';
-
-import './Header.css';
-import Price from '../../Price/Price';
-import Services from '../../Services/Services';
-import Project from '../../Project/Project';
-import Footer from '../../Footer/Footer';
+import frame from '../../../assets/images/frame1.png';
 
 const Header = () => {
-  document.title = "Creative Agency";
   return (
-    <main className="container ">
-      <div className='header-container'>
-        <Navbar></Navbar>
-        <HeaderMain></HeaderMain>
-       </div>
-       
-     
-      <Project/>
+    <main
       
-     
-     
+      className='row d-flex align-items-center justify-content-center mt-0 '
+    >
+      <div className='col-md-5'>
+        <h1 className='mb-4'>
+          Florence
+          agency
+        </h1>
+        <p style={{ color: '#000', fontSize: '16px' }} className='mb-4'>
+          Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          
+          scrambled it to make a type specimen book.
+        </p>
+
+        <button className='btn btn-brand text-white mb-3'>See Pricing</button>
+      </div>
+      <div className='col-md-7'>
+        <img src={frame} alt='' className='img-fluid w-100  p-4' />
+      </div>
     </main>
   );
 };
