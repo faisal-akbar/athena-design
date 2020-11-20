@@ -7,7 +7,7 @@ import icon4 from '../../assets/icon/icon4.png';
 
 const Achievements = () => {
   return (
-    <div className='row align-items-center mx-auto achievements-area'>
+    <div className='row align-items-center mx-auto achievements-area' id='about'>
       <div className='col-lg-5 col-md-12 px-0'>
         <div>
           <h2 className='py-2'>Our Achievements</h2>
