@@ -14,17 +14,31 @@
   visibility: hidden;
 }
 
-.team-container::after {
-  height: 700px;
-  content: ' ';
-  position: absolute;
-  top: 1950px;
-  width: 50%;
-  left: -200px;
-  z-index: -50;
-  background-image: url('../../assets/images/price.png');
+.team-container {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+  background-image: url('../../assets/images/price-section.png');
   background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  opacity: 1;
+  background-position: -80%;
+  background-size: 70%;
+}
+
+.team-container h2 {
+  font-family: 'Yeseva One', cursive;
+}
+
+@media (max-width: 576px) {
+  .team-container {
+    background-image: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-container {
+    background-image: none;
+  }
 }

@@ -30,12 +30,12 @@ const Services = () => {
         }
     ]
     return (
-        <section className="text-center my-5">
+        <section className="text-center  service_area">
             <div className="p-3 mx-auto">
                 <h2>What we do</h2>
                 <p className="text-muted">Our main focus is to make the User Experience very <br /> simple and easy. Simplicity is our Strength.</p>
             </div>
-            <div className="row services_container">
+            <div className="row">
                 {
                     services.map(service => <ServiceDetails service={service} key={service.id}></ServiceDetails>)
                 }
